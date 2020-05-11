@@ -1,5 +1,8 @@
 // We pick the time series being maintained by JHU folks on github.
-let rawTimeSeriesURL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv";
+//let rawTimeSeriesURL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv";
+
+// The same as above, but via the rawgit CDN.
+let rawTimeSeriesURL = "https://ghcdn.rawgit.org/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv";
 
 // We convert the time series to a friendly structure that can
 // be searched for country/province and the like. The return

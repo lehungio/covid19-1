@@ -293,10 +293,6 @@ async function doviz() {
     vegaEmbed('#vis', spec);
 }
 
-async function fetch_imaginea_json(url) {
-    return await (await fetch("https://ghcdn.rawgit.org/Imaginea/covid19/master/data/" + url + ".json")).json();
-}
-
 async function doviz_rt_india() {
     let data = transpose(await fetch_imaginea_json("rt_india"));
     let spec = {

@@ -229,7 +229,7 @@ const data_confirmed = fetchData();
 const window_length = 5;
 
 async function fetch_imaginea_json(url) {
-   return await (await fetch("https://ghcdn.rawgit.org/Imaginea/covid19/master/data/" + url + ".json")).json();
+   return await (await fetch("https://raw.githubusercontent.com/Imaginea/covid19/master/data/" + url + ".json")).json();
 }
  
 

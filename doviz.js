@@ -352,14 +352,14 @@ async function doviz_rt_india() {
                 }
             },
             {
-                data: { values: [{date: "25-Mar-20", label: "Lockdown", y: 0.4}] },
+                data: { values: [{date: "25-Mar-20", label: "Lockdown", y: 0.4}, {date: "1-Sep-20", label: "Relaxation", y: 0.4}] },
                 mark: { type: 'rule', color: "grey", size: 3 },
                 encoding: {
                     x: { field: 'date', type: 'temporal' }
                 }
             },
             {
-                data: { values: [{date: "25-Mar-20", label: "Lockdown", y: 0.4}] },
+                data: { values: [{date: "25-Mar-20", label: "Lockdown", y: 0.4}, {date: "1-Sep-20", label: "Relaxation", y: 0.4}] },
                 mark: { type: 'text', dx: -30 },
                 encoding: {
                     x: { field: 'date', type: 'temporal' },
